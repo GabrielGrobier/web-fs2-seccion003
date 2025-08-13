@@ -1,0 +1,12 @@
+body{
+    background-image: url('../img/fondoWeb.png');
+}
+
+.textForm{
+    color: red;
+    background-color: black;
+}
+.UserLogin{
+    margin-top: 20%;
+    margin-left: 30%;
+}
