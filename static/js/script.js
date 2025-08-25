@@ -1,3 +1,6 @@
+import { sumar as funcionSumar  } from "./funciones.js"
+
+funcionSumar(2,3)
 console.log("se cargo correctamente mi script ")
 let usuariosAdmin = {
     "nombre":"gabriel grobier",
@@ -99,4 +102,15 @@ function registroUsuario(){
 
 
 }
+
+
+let titulos = document.querySelector(".titulos")
+console.log(titulos)
+titulos.addEventListener('mouseenter',function(){
+    titulos.textContent = "Entraste el titulo  el titulo "
+})
+titulos.addEventListener('mouseleave', function(){
+    titulos.textContent = "Saliste del titulo "
+})
+
 
